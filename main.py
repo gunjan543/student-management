@@ -84,7 +84,7 @@ def ConnectDatabase():
     top.mainloop()
 
 def addstudent():
-    addroot=Toplevel(master=DataEntryFrame)
+    addroot=Toplevel(main=DataEntryFrame)
     addroot.grab_set()
     addroot.geometry('470x470+270+300')
     addroot.title('Student Management System')
@@ -138,7 +138,7 @@ def addstudent():
     addroot.mainloop()
 
 def searchstudent():
-    searchroot=Toplevel(master=DataEntryFrame)
+    searchroot=Toplevel(main=DataEntryFrame)
     searchroot.grab_set()
     searchroot.geometry('540x540+270+300')
     searchroot.title('Student Management System')
@@ -200,7 +200,7 @@ def searchstudent():
 def deletestudent():
     pass
 def updatestudent():
-    updateroot=Toplevel(master=DataEntryFrame)
+    updateroot=Toplevel(main=DataEntryFrame)
     updateroot.grab_set()
     updateroot.geometry('535x590+255+250')
     updateroot.title('Student Management System')
